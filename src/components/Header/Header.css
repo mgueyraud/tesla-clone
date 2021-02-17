@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    z-index: 100;
+}
+
+.header__logo{
+    height: 24px;
+    width: 100px;
+    margin-top: 7px;
+}
+
+.header__logo img{
+    max-width: 100%;
+}
+
+.header__center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__center>a{
+    margin: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+.header__right>p{
+    margin: 10px;
+    font-size: 15px;
+}
